@@ -1,0 +1,40 @@
+<h3>Recipe Details<span class="mv-r"><button (click)="list()" class="btn btn-primary">Back to recipe
+        List</button></span></h3>
+
+<hr />
+<div [hidden]="submitted">
+    <div *ngIf="recipe">
+        <div class="title">
+            <h2>{{recipe.title | titlecase}}</h2>
+        </div>
+        <div class="subHead">
+            <h5>{{recipe.desc}}</h5>
+        </div>
+        <div class="full-img">
+            <img src="{{recipe.image}}">
+        </div>
+        <br>
+        <div class="details">
+            <h5>Ingredients:</h5>
+            {{recipe.ingre}}
+        </div>
+        <br>
+        <div class="details">
+            <h5>Recipe:</h5>
+            {{recipe.details}}
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div>
+        <button class="mv-r" (click)="deleteRecipe(recipe.id)" class="btn btn-danger">Delete</button>
+        <button class="mv-r" (click)="updateRecipe(recipe.id)" class="btn btn-warning">Update</button>
+    </div>
+</div>
+
+<div [hidden]="!submitted">
+
+    <h4>Recipe Deleted</h4>
+    <hr>
+    <br>
+</div>

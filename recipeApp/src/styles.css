@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+h3{
+    font-family: 'Cinzel', serif;
+}
+textarea{
+    white-space: pre-wrap;
+}
+label{
+    font-weight: bold;
+    padding: 0.3rem;
+}
+.btn1{
+    background-color: #448c0a;
+    border: #520a8c;
+    color: white;
+    font-weight: bold;
+}
+.btn1{
+    background-color: #520a8c;
+    color: white;
+}

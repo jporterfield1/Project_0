@@ -1,0 +1,32 @@
+h3{
+    font-family: 'Cinzel', serif;
+}
+
+h3 button{
+    background-color: #448c0a;
+    border: none;
+}
+
+h3 button:hover{
+    
+}
+img {
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.4rem inset #448c0a;
+    padding: 0.3rem;
+}
+.td-btn{
+    text-align: right;
+}
+button{
+    margin-right: 1rem;
+}
+.details{
+    white-space: pre-wrap;
+}
+.mv-r{
+    float: right;
+}

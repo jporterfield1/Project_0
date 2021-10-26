@@ -1,0 +1,20 @@
+{
+  "recipes": [
+    {
+      "id": 123,
+      "title": "Bacon Wrapped Jalapenos",
+      "desc": "Everything is b",
+      "image": "https://live.staticflickr.com/6186/6032488420_2b7870a880_b.jpg",
+      "ingre": "12 jalapeno peppers approximately 3-4 inches long\n1- 8 ounce block cream cheese softened\n1 cup cheddar cheese\n1/2 teaspoon onion powder\n1/2 teaspoon salt\n1/2 teaspoon pepper\n12 slices bacon do not use thick-cut\ncooking spray",
+      "details": "1. Preheat the oven to 400 degrees. Line a sheet pan with foil and coat it with cooking spray.\n2. Cut the jalapenos in half lengthwise and use a spoon to scoop out the seeds and ribs. \n3. In a medium bowl mix together the cream cheese, cheddar cheese, onion powder, salt, and pepper. \n4. Fill each jalapeno half with the cheese mixture.\n5. Cut the slices of bacon in half crosswise and wrap each pepper half in a slice of bacon, using a toothpick to secure the bacon.\n6. Arrange the peppers on the baking sheet and bake for 20-25 minutes until bacon is crispy and browned. Serve immediately."
+    },
+    {
+      "id": 56,
+      "image": "https://live.staticflickr.com/8058/8184157792_03c8a3107d_b.jpg",
+      "title": "Swedish Meatballs",
+      "desc": "Meatballs in a creamy sauce.",
+      "ingre": "1 pound ground beef\n1/4 cup panko bread crumbs\n1 tablespoon parsley chopped\n1/4 teaspoon ground allspice\n1/4 teaspoon ground nutmeg\n¼ cup onion finely chopped\n½ teaspoon Garlic Powder\n⅛ teaspoon Pepper\n½ teaspoon salt\n1 egg\n1 tbsp. olive oil\n5 tbsp. butter\n3 tbsp. flour\n2 cups beef broth\n1 cup heavy cream\n1 Tablespoon Worcestershire sauce\n1 tsp. Dijon mustard\nsalt and pepper to taste",
+      "details": "In a medium-sized bowl combine ground beef, panko, parsley, allspice, nutmeg, onion, garlic powder, pepper, salt, and egg. Mix until combined.\nRoll into 12 large meatballs or 20 small meatballs. In a large skillet heat olive oil and 1 Tablespoon butter. Add the meatballs and cook turning continuously until brown on each side and cooked throughout. Transfer to a plate and cover with foil.\n\nAdd 4 Tablespoons butter and flour to skillet and whisk until it turns brown. Slowly stir in beef broth and heavy cream. Add Worcestershire sauce and dijon mustard and bring to a simmer until sauce starts to thicken. Salt and pepper to taste.\nAdd the meatballs back to the skillet and simmer for another 1-2 minutes. Serve over egg noodles or rice."
+    }
+  ]
+}

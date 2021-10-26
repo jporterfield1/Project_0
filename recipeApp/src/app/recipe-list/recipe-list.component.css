@@ -1,0 +1,16 @@
+
+img{
+    width: 15rem;
+    padding: 0.2rem;
+    border: 0.1rem solid #448c0a;
+}
+button{
+    background-color: #448c0a;
+    border: #520a8c;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #520a8c;
+    color: white;
+}

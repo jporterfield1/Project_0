@@ -1,0 +1,67 @@
+<h3>Add Recipe</h3>
+<div [hidden]="submitted">
+    <form (ngSubmit)="onSubmit()" ngNativeValidate>
+        <table class="">
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="id" class="form-label">ID:</label>
+                        <input type="text" class="form-control" id="id" placeholder="123" [(ngModel)]="recipe.id"
+                            name="ID" ngModel required style="white-space: pre-wrap;">
+                    </div>
+                </td>
+                <td>
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title:</label>
+                        <input type="text" class="form-control" id="title" placeholder="Recipe Title"
+                            [(ngModel)]="recipe.title" name="title" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="desc" class="form-label">Description:</label>
+                        <input type="text" class="form-control" id="desc" placeholder="This is so Delicious..."
+                            [(ngModel)]="recipe.desc" name="desc" required>
+                    </div>
+                </td>
+                <td>
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Image Url:</label>
+                        <input type="url" class="form-control" id="image"
+                            placeholder="https://pbs.twimg.com/profile_images/1314314441278791682/6HmlRGDP_400x400.jpg"
+                            [(ngModel)]="recipe.image" name="image" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="ingre" class="form-label">Ingredients:</label>
+                        <textarea style="white-space: pre-wrap;" class="form-control" id="ingre" rows="8" cols="80"
+                            [(ngModel)]="recipe.ingre" ngModel required name="ingre"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="details" class="form-label">Recipe:</label>
+                        <textarea style="white-space: pre-wrap;" class="form-control" id="details" rows="8" cols="80"
+                            [(ngModel)]="recipe.details" ngModel required name="details"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-success">Add Recipe</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div [hidden]="!submitted">
+    <h5>Your Recipe Has Been Added</h5>
+    <button (click)="list()" class="btn1">Back to Recipe List</button>
+</div>

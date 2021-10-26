@@ -1,0 +1,60 @@
+<h3>Update Recipe</h3>
+<div [hidden]="submitted">
+    <form (ngSubmit)="onSubmit()" ngNativeValidate> 
+        <table class="">
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title:</label>
+                        <input type="text" class="form-control" id="title" [(ngModel)]="recipe.title" name="title"
+                            required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="desc" class="form-label">Description:</label>
+                        <input type="text" class="form-control" id="desc" [(ngModel)]="recipe.desc" name="desc"
+                            required>
+                    </div>
+                </td>
+                <td>
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Image Url:</label>
+                        <input type="url" class="form-control" id="image" [(ngModel)]="recipe.image" name="image"
+                            required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="ingre" class="form-label">Ingredients:</label>
+                        <textarea style="white-space: pre-wrap;" class="form-control" id="ingre" rows="8" cols="80"
+                            [(ngModel)]="recipe.ingre" ngModel required name="ingre"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="mb-3">
+                        <label for="details" class="form-label">Recipe:</label>
+                        <textarea style="white-space: pre-wrap;" class="form-control" id="details" rows="8" cols="80"
+                            [(ngModel)]="recipe.details" ngModel required name="details"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" class="btn btn-success">Update Recipe</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div [hidden]="!submitted">
+    <h5>Your Recipe Has Been Updated</h5>
+    <br>
+    <button (click)="list()" class="btn1">Back to Recipe List</button>
+</div>
